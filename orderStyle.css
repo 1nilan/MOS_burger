@@ -1,0 +1,89 @@
+body{
+    background-color: #eaeaea !important;
+}
+
+.navbar {
+    padding: 2% !important;
+    position: fixed !important;
+    position: relative !important;
+    margin-right: 33rem;
+
+}
+
+.container-fluid {
+    margin-left: 25% !important;
+}
+
+.search-img {
+    width: 50%;
+
+}
+
+.searchbtn {
+    width: 10%;
+}
+
+.searchbtn:hover {
+    background-color: #4caf50 !important;
+}
+
+.form-control {
+    width: 40% !important;
+}
+
+.allbtn {
+    margin-top: 3%;
+    width: 100%;
+
+}
+.btnAll:hover {
+    background-color: #4caf50 !important;
+}
+
+
+.btnAll {
+    width: 110px;
+    height: 50px;
+    margin-left: 2%;
+}
+
+.btnB {
+    width: 110px;
+    height: 50px;
+}
+
+.row{
+    margin-left: 1% !important;
+}
+
+
+.card {
+
+    text-align: center;
+    margin-left: 1% !important;
+    margin-top: 1% !important;
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 10% !important;
+
+
+
+}
+
+.card-img-top {
+    margin-left: 2.3rem;
+
+    width: 5rem !important;
+
+}
+
+.card-title{
+    font-size: medium;
+}
+
+.addbtn{
+    font-size: medium !important;
+    background-color: #4caf50 !important;
+    
+    border: 0cap !important;
+}

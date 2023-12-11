@@ -1,0 +1,56 @@
+body {
+    background-image: url(assets/pexels-piotr-arnoldes-6166370.jpg);
+
+}
+
+
+ /* Stile from User Form */
+
+#title {
+    text-align: center !important;
+}
+
+
+.btn {
+    height: 60px;
+    margin-top: 8%;
+    border-radius: 2rem !important;
+}
+
+.user-img {
+    width: 30%;
+    height: 30%;
+}
+
+ /* Stile from administrator Form and cashier Form */
+
+
+
+
+.login-btn {
+    background-color: green !important;
+}
+
+.form-outline {
+    margin-top: 10%;
+    text-align: start;
+}
+
+#user {
+    display: block;
+}
+
+#cashier {
+    display: none;
+}
+
+#administrator {
+    display: none;
+}
+
+
+
+
+/* /====================================================================================================== */
+
+
