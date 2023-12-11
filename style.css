@@ -1,7 +1,13 @@
 body {
     background-image: url(assets/pexels-piotr-arnoldes-6166370.jpg);
+    background-size: cover;
 
+   
+filter: ;
 }
+
+
+
 
 
  /* Stile from User Form */

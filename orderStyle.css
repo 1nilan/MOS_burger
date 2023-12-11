@@ -1,17 +1,31 @@
-body{
+body {
     background-color: #eaeaea !important;
 }
 
+
+.container {
+    margin-left: 0% !important;
+}
+
+
 .navbar {
-    padding: 2% !important;
+    margin-top: 2%;
     position: fixed !important;
     position: relative !important;
-    margin-right: 33rem;
+    border-radius: 20px;
+    background-color: aliceblue !important;
 
 }
 
+#burger {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
 .container-fluid {
-    margin-left: 25% !important;
+    margin-left: 30% !important;
+    margin-top: 2%;
 }
 
 .search-img {
@@ -35,7 +49,14 @@ body{
     margin-top: 3%;
     width: 100%;
 
+    justify-content: center;
+    margin-bottom: 3%;
+    /* align-items: center; */
+
+
+
 }
+
 .btnAll:hover {
     background-color: #4caf50 !important;
 }
@@ -44,7 +65,7 @@ body{
 .btnAll {
     width: 110px;
     height: 50px;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .btnB {
@@ -52,7 +73,7 @@ body{
     height: 50px;
 }
 
-.row{
+.row {
     margin-left: 1% !important;
 }
 
@@ -60,15 +81,14 @@ body{
 .card {
 
     text-align: center;
-    margin-left: 1% !important;
-    margin-top: 1% !important;
+    margin-left: 2% !important;
+    margin-top: 2% !important;
     width: 180px !important;
     height: 180px !important;
     border-radius: 10% !important;
 
-
-
 }
+
 
 .card-img-top {
     margin-left: 2.3rem;
@@ -77,13 +97,16 @@ body{
 
 }
 
-.card-title{
+.card-title {
     font-size: medium;
 }
 
-.addbtn{
+.addbtn {
     font-size: medium !important;
     background-color: #4caf50 !important;
-    
+
     border: 0cap !important;
 }
+
+
+
