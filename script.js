@@ -8,11 +8,11 @@ function myFunction1() {
 
         y.style.display = "none"
         x.style.display = "block";
-
-    } else {
+        return
+    } 
         x.style.display = "none";
         y.style.display = "block";
-    }
+    
 }
 
 
