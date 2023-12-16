@@ -9,10 +9,10 @@ function myFunction1() {
         y.style.display = "none"
         x.style.display = "block";
         return
-    } 
-        x.style.display = "none";
-        y.style.display = "block";
-    
+    }
+    x.style.display = "none";
+    y.style.display = "block";
+
 }
 
 
@@ -31,21 +31,78 @@ function myFunction2() {
     }
 }
 
+function myFunction3() {
+
+    var x = document.getElementById("administrator");
+    var y = document.getElementById("mangement-form");
+
+
+    let name = document.getElementById("txtName").value;
+    let password = document.getElementById("txtPassword").value;
+
+    if (name == "nilan" && password == "1234") {
+
+        x.style.display = "none";
+        y.style.display = "block";
+
+
+
+    } else {
+
+        y.style.display = "none"
+        x.style.display = "block";
+
+    }
+}
+
+function myFunction4() {
+
+ 
+    let name = document.getElementById("txtName1").value;
+    let password = document.getElementById("txtPassword1").value;
+
+    if (name == "nilan" && password == "1234") {
+
+       window.location.href = 'order.html';
+
+
+    } else {
+
+        alert(" Login Unsuccess :(");
+
+    }
+}
+
+function myFunction5() {
+
+       window.location.href = 'pay.html';
+
+
+}
+
+function backButton1() {
+   
+    window.location.href = 'order.html';
+
+}
+
+
 function backButton() {
 
     var x = document.getElementById("administrator");
     var y = document.getElementById("cashier");
     var z = document.getElementById("user");
+    var a = document.getElementById("mangement-form");
 
     if (x.style.display === "block") {
 
         z.style.display = "block"
         x.style.display = "none";
 
-        // }else if(y.style.display === "block"){    
+    } else if (a.style.display === "block") {
 
-        //     z.style.display = "block"
-        //     y.style.display = "none";
+        z.style.display = "block"
+        a.style.display = "none";
 
 
     } else {
@@ -57,7 +114,7 @@ function backButton() {
 
 
 function btnBurgers() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -84,12 +141,12 @@ function btnBurgers() {
         e.style.display = "none"
         f.style.display = "none"
         g.style.display = "none"
-      
+
     }
 }
 
 function btnSubmarines() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -116,12 +173,12 @@ function btnSubmarines() {
         e.style.display = "none"
         f.style.display = "none"
         g.style.display = "none"
-      
+
     }
 }
 
 function btnFries() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -148,12 +205,12 @@ function btnFries() {
         e.style.display = "none"
         f.style.display = "none"
         g.style.display = "none"
-      
+
     }
 }
 
 function btnPasta() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -180,12 +237,12 @@ function btnPasta() {
         b.style.display = "none"
         f.style.display = "none"
         g.style.display = "none"
-      
+
     }
 }
 
 function btnChicken() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -212,12 +269,12 @@ function btnChicken() {
         e.style.display = "none"
         b.style.display = "none"
         g.style.display = "none"
-      
+
     }
 }
 
 function btnBeverages() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -244,12 +301,12 @@ function btnBeverages() {
         e.style.display = "none"
         f.style.display = "none"
         b.style.display = "none"
-      
+
     }
 }
 
 function btnall() {
-    
+
     var a = document.getElementById("all");
     var b = document.getElementById("main-Burger");
     var c = document.getElementById("main-submarines");
@@ -276,7 +333,7 @@ function btnall() {
         e.style.display = "none"
         f.style.display = "none"
         g.style.display = "none"
-      
+
     }
 }
 

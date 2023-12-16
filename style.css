@@ -27,6 +27,7 @@ body::before {
     height: 60px;
     margin-top: 8%;
     border-radius: 2rem !important;
+    background-color: #4caf50 !important;
 }
 
 .user-img {
@@ -40,7 +41,7 @@ body::before {
 
 
 .login-btn {
-    background-color: green !important;
+    background-color: #4caf50 !important;
 }
 
 .form-outline {
@@ -60,9 +61,13 @@ body::before {
     display: none;
 }
 
+#mangement-form{
+    display: none;
+}
 
-
-
+.mangement{
+    margin-top: 10%;
+}
 /* /====================================================================================================== */
 
 

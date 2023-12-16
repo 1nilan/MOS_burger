@@ -14,7 +14,7 @@
 
 <body>
 
-    <button onclick="" style='font-size:24px; border-radius: 50px;'><i class='fas fa-arrow-circle-left'
+    <button onclick="backButton1()" style='font-size:24px; border-radius: 50px;'><i class='fas fa-arrow-circle-left'
             style='font-size:48px; '></i></button>
 
     <div class="container-fluid">
@@ -163,45 +163,47 @@
 
             <div class="col-md-4">
                 <div class="pay-box">
-                        <h1 class="pay-title">Payment Method</h1>
-                
-                        <div class="pt-3">
-                            <div class="d-flex flex-row pb-3 paybox">
-                              <div class="rounded border border-primary border-2 d-flex w-100 p-3 align-items-center">
-                                <div class="d-flex align-items-center pe-3">
-                                  <input class="form-check-input" type="radio" name="radioNoLabelX" id="radioNoLabel11"
-                                    value="" aria-label="..." checked />
+                        <h1 class="pay-title"><b>Payment Method</b></h1>
+                <hr>
+                        
+                            <div class="mode">
+                                <div class="d-flex flex-row  paybox">
+                                  <div class=" border border-primary border-2 d-flex w-100 p-3 align-items-center">
+                                    <div class="d-flex align-items-center pe-3">
+                                      <input class="form-check-input" type="radio" name="radioNoLabelX" id="radioNoLabel11"
+                                        value="" aria-label="..." checked />
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                      
+                                      <h1 style="margin-left: 120% !important;" class="mb-0 text-primary">Cash</h1>
+                                      
+                                    </div>
+                                    <img style="width: 15%; margin-left: 50%;" src="assets/payment-method.png" alt="">
+                                  </div>
                                 </div>
-                                <div class="d-flex flex-column">
-                                  
-                                  <h1 style="margin-left: 160% !important;" class="mb-0 text-primary">Cash</h1>
-                                  
-                                </div>
-                                <img style="width: 15%; margin-left: 50%;" src="assets/payment-method.png" alt="">
-                              </div>
+                  
+    
+                                
+    
+                                <div class="d-flex flex-row  paybox" >
+                                    <div class=" border border-primary border-2 d-flex w-100 p-3 align-items-center">
+                                      <div class="d-flex align-items-center pe-3">
+                                        <input class="form-check-input" type="radio" name="radioNoLabelX" id="radioNoLabel11"
+                                          value="" aria-label="..." checked />
+                                      </div>
+                                      <div class="d-flex flex-column">
+                                        
+                                        <h1 style="margin-left: 120% !important;" class="mb-0 text-primary">Card</h1>
+                                        
+                                      </div>
+                                      <img style="width: 15%; margin-left: 50%;" src="assets/credit-card (1).png" alt="">
+                                    </div>
+                                  </div>
+    
                             </div>
-              
-
-                            <!--  -->
-
-                            <div class="d-flex flex-row pb-3 paybox" >
-                                <div class="rounded border border-primary border-2 d-flex w-100 p-3 align-items-center">
-                                  <div class="d-flex align-items-center pe-3">
-                                    <input class="form-check-input" type="radio" name="radioNoLabelX" id="radioNoLabel11"
-                                      value="" aria-label="..." checked />
-                                  </div>
-                                  <div class="d-flex flex-column">
-                                    
-                                    <h1 style="margin-left: 160% !important;" class="mb-0 text-primary">Cash</h1>
-                                    
-                                  </div>
-                                  <img style="width: 15%; margin-left: 50%;" src="assets/credit-card (1).png" alt="">
-                                </div>
-                              </div>
-
-                              <!--  -->
+                              
                            
-                          </div>
+             
               
                             <button type="button" class="btn btn-primary btn-lg paybtn">Pay</button>
               
