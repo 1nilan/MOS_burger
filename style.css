@@ -1,11 +1,20 @@
 body {
     background-image: url(assets/pexels-piotr-arnoldes-6166370.jpg);
     background-size: cover;
-
-   
-
+    
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    z-index: -1;
+    filter: blur(10px); 
+  }
 
  /* Stile from User Form */
 
