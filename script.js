@@ -40,11 +40,11 @@ function myFunction3() {
     let name = document.getElementById("txtName").value;
     let password = document.getElementById("txtPassword").value;
 
-    if (name == "nilan" && password == "1234") {
-
+    // if (name == "nilan" && password == "1234") {
+    if (true) {
+       
         x.style.display = "none";
         y.style.display = "block";
-
 
 
     } else {
@@ -57,13 +57,13 @@ function myFunction3() {
 
 function myFunction4() {
 
- 
+
     let name = document.getElementById("txtName1").value;
     let password = document.getElementById("txtPassword1").value;
 
-    if (name == "nilan" && password == "1234") {
-
-       window.location.href = 'order.html';
+    // if (name == "nilan" && password == "1234") {
+    if (true) {
+        window.location.href = 'order.html';
 
 
     } else {
@@ -75,13 +75,13 @@ function myFunction4() {
 
 function myFunction5() {
 
-       window.location.href = 'pay.html';
+    window.location.href = 'pay.html';
 
 
 }
 
 function backButton1() {
-   
+
     window.location.href = 'order.html';
 
 }
